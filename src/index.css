@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.search{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.title{
+  display: flex;
+  width: 60%;
+}
+
+.filt{
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.filt input{
+  height: 2em;
+}
+
+.title2{
+  display: flex;
+}
+
+.plus{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+}
+
+.click{
+  display: flex;
+
+}
+
+.click{
+  padding-top: 1em;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+}
